@@ -1,0 +1,33 @@
+/*background image and size*/
+body {
+  background-image: url("../background.jpg");
+  background-size: 100%;
+}
+/*Font change*/
+h1 {
+  font-family: 'Marcellus', serif;
+  color: white;
+}
+/*Font change*/
+p {
+  font-family: 'Marcellus', serif;
+  color: white;
+}
+/*Color and border table*/
+table {
+  border: solid 2px white;
+  background-color: #995827;
+}
+/*interviens sur les lignes pairs du tableau*/
+.table-striped>tbody>tr:nth-of-type(even) {
+  color: white;
+}
+/*interviens sur les lignes impairs du tableau*/
+.table-striped>tbody>tr:nth-of-type(odd) {
+  color: black;
+}
+
+th {
+  font-family: 'Marcellus' serif;
+  color: black;
+}
